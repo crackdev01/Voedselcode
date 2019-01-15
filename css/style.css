@@ -1,0 +1,520 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+    font-size: 16px;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: Sarabun, sans-serif;
+    line-height: 1.5rem;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.roundborder {
+    border-radius: 0.7rem;
+}
+
+.shadow {
+    box-shadow: 1rem 1rem 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 0.7rem;
+}
+
+/***********************************************************
+HEADER AND NAVIGATION
+***********************************************************/
+/* header and nav */
+.navContainer {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #2a5d84;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    border-bottom: #3c86bc 5px solid;
+    height: 100px;
+    top: 0;
+}
+
+header #branding h1 {
+    font-size: 40px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+header a:hover {
+    color: #000000;
+}
+
+header li {
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+header #branding {
+    float:left;
+}
+
+header .highlight {
+    color: #000000;
+}
+
+header nav {
+    float:right;
+    margin-top: 60px;
+}
+
+/* SHOWCASE HOME */
+#showcase {
+    padding-top: 100px;
+    min-height: 300px;
+    background: url('../images/showcase.jpg');
+    text-align: center;
+    color: #ffffff;
+    border-bottom: #3c86bc 5px solid;
+}
+
+.showcaseContainer {
+    width: 80%;
+    margin: auto;
+    top: 0;
+    overflow: hidden;
+}
+
+#showcase h1 {
+    margin-top: 40px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px #000000;
+}
+
+#showcase p {
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+}
+
+/* MAIN CONTENT and SIDEBAR home page*/
+.mainContainer {
+    width: 80%;
+    margin: auto;
+    top: 0;
+    overflow: hidden;
+}
+
+#mainContent {
+    float:left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+section {
+    text-align:justify;
+}
+
+#sidebar{
+    float:right;
+    width: 30%;
+    background: #3c86bc;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 4em 0;
+    text-align: justify;
+
+}
+
+/*DILEMMA Pagina */
+#probleemContent {
+    width: 50%;
+    margin: 2em 0;
+}
+
+#probleemContent1 {
+    width: 100%;
+    margin-left:50%;
+    border: 3px solid #3c86be;
+    padding: 20px;
+    border-radius: 0.7rem;
+}
+
+#asideContainer {
+    margin: 2em 0;
+    width: 45%;
+}
+
+.asideProbleem {
+    background: #3c86be;
+    color: #ffffff;
+    padding: 0.1em 1.75em;
+    margin: 10px;
+    margin-right: 85px;
+    border-radius: 0.7rem;
+    box-shadow: 1rem 1rem 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#asideProbleem2 {
+    background: #3c86be;
+    color: #ffffff;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.roundBorder {
+    border-radius: 0.7rem;
+}
+
+#special {
+font-size: 4.375rem;
+line-height: 4.375rem;
+}
+
+#highlight2 {
+    color: #3c86be;
+}
+
+#showImg {
+    display: none;
+}
+
+#myButton {
+    background: #3c86be;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 0.7em;
+    margin-left: 35%;
+    cursor: pointer;
+}
+
+/* ****************************************************** */
+/* Recepten pagina */
+/* ******************************************************** */
+
+#restOfTheWord {
+    color: #3c86b3;
+}
+
+#kinderfoto {
+    border-radius: 0.6rem;
+}
+
+
+.maincontent ul {
+    margin-left: 1rem;
+}
+
+#foodWastePicture {
+    width: 6rem;
+    float: right;
+    margin-right: 7rem;
+}
+
+#eatsmart {
+    width: 100%;
+    border-radius: 0.7rem;
+}
+
+#pastaUl {
+    margin-left: 1rem;
+}
+
+#javaJump {
+    animation-name: goJump;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goJump {
+    0% {margin-top: 0;}
+    3% {margin-top: -1rem;}
+    6% {margin-top: 0;}
+    9% {margin-top: 0;}
+    12% {margin-top: -1rem;}
+    15% {margin-top: 0}
+    100% {margin-top: 0;}
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/***********************************************************
+maincontent 
+***********************************************************/
+/* maincontent */
+
+.maincontent {
+    margin: 1em 0;
+    width: calc(100% - 25em);
+}
+
+.maincontent h1 {
+    font-size: 4.375rem;
+    line-height: 4.375rem;
+}
+
+.maincontent article {
+    margin-bottom: 1em;
+}
+
+.maincontent article h1 {
+    font-size: 4.375rem;
+    line-height: 4.375rem;
+}
+
+.maincontent article h2 {
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.maincontent article h3 {
+    font-size: 1.2em;
+}
+
+.eersteP {
+    font-weight: bold;
+}
+
+.sidebar {
+    width: 22em;
+    margin-top: 3em;
+    margin-left: 1em;
+    color: #fff;
+    display: inline;
+}
+
+.sidebar .article {
+    background: #3c86be;
+    padding: 0.1em 1.75em;
+    margin: 1em 0;
+}
+
+
+.sidebar .article a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3em;
+}
+.sidebar .article a:hover {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+
+.sidebar .article h1 {
+    font-size: 1.5em;
+}
+
+.sidebar .article img {
+    width: auto;
+}
+
+img.right {
+    float: right;
+    max-width: 50%;
+    display: block;
+    margin-left: 1.5rem; 
+    border-radius: 0.7rem;
+}
+
+img.left {
+    float: left;
+    max-width: 50%;
+    display: block;
+    margin-right: 1.5rem; 
+    border-radius: 0.7rem;
+}
+
+/***********************************************************
+Tips 
+***********************************************************/
+
+.tips-koken,
+.tips-bewaren,
+.tips-boodschappen {
+    width: 100%;
+    background: #accde5;
+    cursor: pointer;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.koken,
+.bewaren,
+.boodschappenlijstje {
+    display: none;
+    background: #efefef;
+    padding: 1em;
+    text-align: left;
+}
+
+
+.tips-active {
+    background: #efefef;
+    border-left: #accde5 5px solid;
+    border-right: #accde5 5px solid;
+}
+
+.koken-button,
+.bewaren-button,
+.boodschappen-button {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2em;
+    text-shadow: 1px 1px #000;
+}
+
+.tips-button-active {
+    color: #000;
+    text-shadow: 1px 1px #fff;
+}
+
+
+/***********************************************************
+Quiz 
+***********************************************************/
+#quiz {
+    background: #efefef;
+    padding: 1em;
+    text-align: left;
+}
+
+#quiz h1 {
+    font-size: 1.3em;
+}
+
+ label {
+    width: 100%;
+    display: block;
+    font-weight: bold;
+ }
+
+.button {
+    cursor: pointer;
+    background: #accde5;
+    border: #3c86be 1px solid;
+}
+
+.button:active{
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+.result-good {
+    margin: 1em auto;
+    height: 10rem;
+    width: 10rem;
+    background: #0f0;
+    border-radius: 5rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.result-average {
+    margin: 1em auto;
+    height: 10rem;
+    width: 10rem;
+    background: #ff0;
+    border-radius: 5rem;
+    font-size: 4rem;
+    text-align: center;
+}
+.result{
+    margin: 3rem auto;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.result-bad {
+    margin: 1em auto;
+    height: 10rem;
+    width: 10rem;
+    background: #f00;
+    border-radius: 5rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.result-average span,
+.result-bad span,
+.result-good span { 
+  height: 10rem; 
+  display: inline-block; 
+  vertical-align: middle; 
+  }
+
+/* FOOTER */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #2a5d84;
+  text-align: center;
+  border-top: #3c86bc 5px solid;
+  color: #fff;
+}
+
+/* responsive */
+
+@media (max-width: 960px) {
+    #foodWastePicture,
+    img.left, img.right {
+        float: none;
+        max-width: 100%;
+        display: block; 
+        margin: 0.5em 0;
+    }
+}
+
+@media only screen (max-device-width: 767px) {
+    img.left,
+    img.right {
+        float: none;
+        width: 100%;
+        display: block;
+        border-radius: 0.7rem;
+    }
+
+}
